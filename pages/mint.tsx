@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useContract, useMintNFT } from "@thirdweb-dev/react";
+import { useAddress, useContract, useMintNFT } from "@thirdweb-dev/react";
 import Container from "../components/Container/Container";
 
 export default function Component() {
@@ -9,6 +9,7 @@ export default function Component() {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [image, setImage] = useState("");
+  const address = useAddress();
 
   if (error) {
     console.error("failed to mint NFT", error);
@@ -23,14 +24,15 @@ export default function Component() {
 
     mintNft({
       metadata,
-      to: "0xCF8D2Da12A032b3f3EaDC686AB18551D8fD6c132",
+      // @ts-ignore
+      to: address,
     });
   };
 
   return (
     <Container maxWidth="lg">
-      <h1>Mint an NFT</h1>
-      <form className="space-y-4">
+      <h1>Tokenize your Property as a NFT</h1>
+      <form className="space-y-4 my-4">
         <div className="mb-4">
           <label className="block mb-2">
             Name:
