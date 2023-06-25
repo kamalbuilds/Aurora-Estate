@@ -38,21 +38,15 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  Build NFT Marketplaces
+                  Aurora Estate Marketplace
                 </span>
                 <br />
-                faster than ever.
               </h1>
+              <h3>
+                A fast ⚡, secure, and scalable real estate marketplace built on the Aurora blockchain.
+              </h3>
               <p className={styles.heroSubtitle}>
-                <Link
-                  className={styles.link}
-                  href="https://thirdweb.com"
-                  target="_blank"
-                >
-                  thirdweb
-                </Link>{" "}
-                gives you the tools you need to create audited, performant, and
-                flexible NFT marketplaces in <b>hours</b>, <i>not months</i>.
+                Tokenize your property as an NFT and sell or rent it on our marketplace. Built on the Aurora blockchain for fast and low-cost transactions.
               </p>
 
               <div className={styles.heroCtaContainer}>
@@ -61,7 +55,7 @@ const Home: NextPage = () => {
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  href="https://github.com/legendarykamal/Aurora-Estate"
                   target="_blank"
                 >
                   GitHub

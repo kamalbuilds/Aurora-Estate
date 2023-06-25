@@ -3,10 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 
-/**
- * Navigation bar that shows up on all pages.
- * Rendered in _app.tsx file above the page content.
- */
+
 export function Navbar() {
   const address = useAddress();
 
@@ -16,7 +13,7 @@ export function Navbar() {
         <div className={styles.navLeft}>
           <Link href="/" className={`${styles.homeLink} ${styles.navLeft}`}>
             <Image
-              src="/logo.png"
+              src="/marketplace.png"
               width={48}
               height={48}
               alt="NFT marketplace sample logo"

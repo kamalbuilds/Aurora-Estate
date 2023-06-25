@@ -1,7 +1,29 @@
 # Aurora Estate
 
-A fast, secure, and scalable real estate marketplace built on the Aurora blockchain.
+Aurora Estate is a fast, secure, and scalable real estate marketplace built on the Aurora blockchain. With Aurora Estate, you can easily tokenize your property as a non-fungible token (NFT) and sell or rent it on our marketplace.
 
-Deployed Marketplace Contract - https://explorer.testnet.aurora.dev/address/0x5815058d25e12CA54C4DA8203c403dCDDB7F9086
+## Features
 
-Deployed NFT Collection -https://explorer.testnet.aurora.dev/address/0x107E64D41044eAf1bBC181c47ddA0Fb60F577071
+- Tokenize your property as an NFT
+- List your property for sale or rent on our marketplace
+- Set custom durations for property listings
+- Place your property on auction with a custom starting amount
+- Mint ERC-4907 rentable NFTs
+- Built on the Aurora blockchain for fast and low-cost transactions
+
+## Benefits of the Aurora Blockchain
+
+The Aurora blockchain provides several benefits for our real estate marketplace:
+
+- Fast transaction processing: With Aurora's high-speed blockchain, transactions are processed quickly and efficiently.
+- Low transaction fees: Aurora's low transaction fees make buying, selling, and renting properties on our marketplace more affordable.
+- High security: Aurora's secure blockchain technology ensures that all transactions are safe and transparent.
+
+## ERC-4907 Rentable NFTs
+
+Aurora Estate supports the ERC-4907 standard for rentable NFTs. This standard facilitates the efficient implementation of rentable NFTs by separating NFT ownership and usage rights. Usage rights are automatically withdrawn upon expiration.
+
+## Deployed Contracts
+
+- Marketplace Contract: https://explorer.testnet.aurora.dev/address/0x5815058d25e12CA54C4DA8203c403dCDDB7F9086
+- NFT Collection: https://explorer.testnet.aurora.dev/address/0x107E64D41044eAf1bBC181c47ddA0Fb60F577071
