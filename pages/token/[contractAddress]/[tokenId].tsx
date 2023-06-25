@@ -114,6 +114,11 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
     return txResult;
   }
 
+  interface Attributes {
+    trait_type: string;
+    value: string;
+  }
+
   return (
     <>
       <Toaster position="bottom-center" reverseOrder={false} />
@@ -131,16 +136,21 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
 
               <h3 className={styles.descriptionTitle}>Traits</h3>
 
+
               <div className={styles.traitsContainer}>
                 {Object.entries(nft?.metadata?.attributes || {}).map(
-                  ([key, value]) => (
-                    <div className={styles.traitContainer} key={key}>
-                      <p className={styles.traitName}>{key}</p>
-                      <p className={styles.traitValue}>
-                        {value?.toString() || ""}
-                      </p>
-                    </div>
-                  )
+                  // @ts-ignore
+                  ([key, value]: [string, Attributes]) => {
+                    if (value) {
+                      return (
+                        <div className={styles.traitContainer} key={key}>
+                          <p className={styles.traitName}>{value.trait_type}</p>
+                          <p className={styles.traitValue}>{value.value}</p>
+                        </div>
+                      );
+                    }
+                    return null;
+                  }
                 )}
               </div>
 
