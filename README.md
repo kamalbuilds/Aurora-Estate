@@ -17,11 +17,14 @@ The Aurora blockchain provides several benefits for our real estate marketplace:
 
 - Fast transaction processing: With Aurora's high-speed blockchain, transactions are processed quickly and efficiently.
 - Low transaction fees: Aurora's low transaction fees make buying, selling, and renting properties on our marketplace more affordable.
-- High security: Aurora's secure blockchain technology ensures that all transactions are safe and transparent.
+- High security: Since the real estate NFTs hold high value and security is our main concern . Aurora's secure blockchain technology ensures that all transactions are safe and transparent.
 
 ## ERC-4907 Rentable NFTs
 
-Aurora Estate supports the ERC-4907 standard for rentable NFTs. This standard facilitates the efficient implementation of rentable NFTs by separating NFT ownership and usage rights. Usage rights are automatically withdrawn upon expiration.
+Aurora Estate supports the ERC-4907 standard for rentable NFTs , this allows the platform to support renting of the Estate NFTs by the owners to the users. 
+This standard facilitates the efficient implementation of rentable NFTs by separating NFT ownership and usage rights. Usage rights are automatically withdrawn upon expiration.
+
+![image](https://github.com/legendarykamal/Aurora-Estate/assets/95926324/47b2dc66-ad6c-496a-8621-a62cddb3f686)
 
 ## Deployed Contracts
 
