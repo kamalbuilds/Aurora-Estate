@@ -29,5 +29,5 @@ This standard facilitates the efficient implementation of rentable NFTs by separ
 ## Deployed Contracts
 
 - Marketplace Contract: https://explorer.testnet.aurora.dev/address/0x5815058d25e12CA54C4DA8203c403dCDDB7F9086
-- NFT Collection: https://explorer.testnet.aurora.dev/address/0x107E64D41044eAf1bBC181c47ddA0Fb60F577071
+- NFT Collection: https://explorer.testnet.aurora.dev/address/0x1f98CACca39b9310EBF9a35100A87f9dddd5513b
 - Rentable NFTs: https://testnet.aurorascan.dev/address/0x787641796556f17395C311E8917538461701cd64
