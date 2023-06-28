@@ -42,28 +42,48 @@ const Home: NextPage = () => {
                 </span>
                 <br />
               </h1>
-              <h3>
+              <h2>
                 A fast ⚡, secure, and scalable real estate marketplace built on the Aurora blockchain.
-              </h3>
-              <p className={styles.heroSubtitle}>
-                Tokenize your property as an NFT and sell or rent it on our marketplace. Built on the Aurora blockchain for fast and low-cost transactions.
-              </p>
-
-              <div className={styles.heroCtaContainer}>
-                <Link className={styles.heroCta} href="/buy">
-                  Get Started
-                </Link>
-                <Link
-                  className={styles.secondaryCta}
-                  href="https://github.com/legendarykamal/Aurora-Estate"
-                  target="_blank"
-                >
-                  GitHub
-                </Link>
-              </div>
+              </h2>
+              <br />
             </div>
+            <div className="sketchfab-embed-wrapper">
+              <iframe
+                title="10 ALAMINE DEVELOPMENT HILL REAL ESTATE"
+                frameBorder="0"
+                allowFullScreen
+                // mozallowfullscreen="true"
+                // webkitallowfullscreen="true"
+                allow="autoplay; fullscreen; xr-spatial-tracking"
+                xr-spatial-tracking
+                execution-while-out-of-viewport
+                execution-while-not-rendered
+                web-share
+                src="https://sketchfab.com/models/d08a4a1107544fffa85bb2025f7a7904/embed?autostart=1&ui_theme=dark"
+                width="1600"
+                height="900"
+              ></iframe>
+        </div>
           </div>
         </div>
+        <div className="text-center mx-56">
+            <p className={styles.heroSubtitle}>
+                  Tokenize your property as an NFT and sell or rent it on our marketplace. Built on the Aurora blockchain for fast and low-cost transactions.
+                </p>
+
+                <div className={styles.heroCtaContainer}>
+                  <Link className={styles.heroCta} href="/buy">
+                    Get Started
+                  </Link>
+                  <Link
+                    className={styles.secondaryCta}
+                    href="https://github.com/legendarykamal/Aurora-Estate"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Link>
+                </div>
+              </div>
       </div>
     </div>
   );
