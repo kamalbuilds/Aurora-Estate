@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { useAddress, useContract, useMintNFT } from "@thirdweb-dev/react";
 import Container from "../components/Container/Container";
 import { Box } from "@mui/material";
+import toast, { Toaster } from "react-hot-toast";
+import toastStyle from "../util/toastConfig";
+
 export default function Component() {
   const { contract } = useContract("0x107E64D41044eAf1bBC181c47ddA0Fb60F577071");
   const { mutate: mintNft, isLoading, error } = useMintNFT(contract);
@@ -42,10 +45,18 @@ export default function Component() {
       // @ts-ignore
       to: address,
     });
+
+    toast(`NFT Minted Successfully`, {
+      icon: "✅",
+      style: toastStyle,
+      position: "bottom-center",
+    });
+
   };
 
   return (
     <Container maxWidth="lg">
+      <Toaster position="bottom-center" reverseOrder={false} />
       <h1>Tokenize your Property as a NFT</h1>
       <form className="space-y-4 my-4">
         <div className="mb-4">

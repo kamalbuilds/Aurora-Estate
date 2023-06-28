@@ -49,7 +49,7 @@ const Home: NextPage = () => {
             </div>
             <div className="sketchfab-embed-wrapper">
               <iframe
-                title="10 ALAMINE DEVELOPMENT HILL REAL ESTATE"
+                title="Aurora-ESTATE"
                 frameBorder="0"
                 allowFullScreen
                 // mozallowfullscreen="true"
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
                 execution-while-out-of-viewport
                 execution-while-not-rendered
                 web-share
-                src="https://sketchfab.com/models/d08a4a1107544fffa85bb2025f7a7904/embed?autostart=1&ui_theme=dark"
+                src="https://sketchfab.com/models/d08a4a1107544fffa85bb2025f7a7904/embed?autospin=1&ui_theme=dark&autostart=1"
                 width="1600"
                 height="900"
               ></iframe>
