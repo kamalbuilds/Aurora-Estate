@@ -156,7 +156,7 @@ import {
                   )}
                 </div>
   
-                <h3 className={styles.descriptionTitle}>History</h3>
+                <h3 className={styles.descriptionTitle}>History of the Property</h3>
   
                 <div className={styles.traitsContainer}>
                   {transferEvents?.map((event, index) => (

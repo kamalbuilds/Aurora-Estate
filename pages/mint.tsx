@@ -148,9 +148,11 @@ export default function Component() {
           </label>
         </div>
       </form>
-      <button disabled={isLoading} onClick={handleMint} className="text-center border-4 border-sky-500 p-2">
-        Mint!
-      </button>
+      <div className="flex justify-center">
+        <button disabled={isLoading} onClick={handleMint} className="text-center border-4 border-sky-500 p-2">
+          Mint!
+        </button>
+      </div>
     </Container>
   );
 }
