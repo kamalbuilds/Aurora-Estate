@@ -11,6 +11,10 @@ Aurora-Estate is a revolutionary real estate marketplace built on the Aurora blo
 - 🏢 Mint ERC-4907 rentable NFTs
 - ⚡ Built on the Aurora blockchain for fast and low-cost transactions
 
+## 👦🏻User Flow Diagram
+
+![image](https://github.com/legendarykamal/Aurora-Estate/assets/95926324/781acfc8-dff7-4bfb-8e69-5a3332bbae61)
+
 ## 💪 Benefits of Aurora Blockchain
 
 The Aurora blockchain offers several advantages for our real estate platform:
