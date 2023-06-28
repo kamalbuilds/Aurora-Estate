@@ -1,6 +1,7 @@
-# Aurora Estate
+# Aurora-Estate
 
-Aurora Estate is a fast, secure, and scalable real estate marketplace built on the Aurora blockchain. With Aurora Estate, users can easily tokenize their estate property as a non-fungible token (NFT) on Aurora Blockchain and sell, rent or even put it on Auction on our marketplace.
+Aurora-Estate is a fast, secure, and scalable real estate marketplace built on the Aurora blockchain. With Aurora Estate, users can easily tokenize their estate property as a non-fungible token (NFT) on Aurora Blockchain and sell, rent or even put it on Auction on our marketplace.
+
 
 ## Features
 
