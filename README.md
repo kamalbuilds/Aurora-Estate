@@ -13,7 +13,7 @@ Aurora-Estate is a revolutionary real estate marketplace built on the Aurora blo
 
 ## 👦🏻User Flow Diagram
 
-![image](https://github.com/legendarykamal/Aurora-Estate/assets/95926324/781acfc8-dff7-4bfb-8e69-5a3332bbae61)
+![image](https://github.com/legendarykamal/Aurora-Estate/assets/95926324/09ec5c5c-0919-4ecd-8c5b-948e086cf4c6)
 
 ## 💪 Benefits of Aurora Blockchain
 
@@ -35,7 +35,7 @@ The Aurora blockchain offers several advantages for our real estate platform:
 
 Aurora Estate fully supports the ERC-4907 standard for rentable NFTs. This allows property owners to easily rent out their NFTs to users. By separating NFT ownership and usage rights, the platform efficiently implements rental agreements, automatically withdrawing usage rights upon expiration.
 
-![image](https://github.com/legendarykamal/Aurora-Estate/assets/95926324/47b2dc66-ad6c-496a-8621-a62cddb3f686)
+<img src="https://github.com/legendarykamal/Aurora-Estate/assets/95926324/47b2dc66-ad6c-496a-8621-a62cddb3f686" width="400">
 
 ## 🚀 Deployed Contracts
 
